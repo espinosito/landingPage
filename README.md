@@ -1,2 +1,0 @@
-# landingPage
-Fresh landing page

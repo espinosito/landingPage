@@ -1,11 +1,10 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg align-self-center fixed-top colorBar">
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <dark-light-mode-vue class="nav-item"></dark-light-mode-vue>
+    <nav class="navbar navbar-expand-lg align-self-center fixed-top" :class="$store.state.theme == 'light' ? 'bg-dark bg-opacity-75':'bg-light bg-opacity-75'">
+        <div class="collapse container-fluid navbar-collapse justify-content-between" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About me</a>
+                <h1 class="nav-link active mb-0 p-0" aria-current="page" href="#">About me</h1>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -25,6 +24,7 @@
                 <a class="nav-link disabled">Disabled</a>
                 </li>
             </ul>
+            <dark-light-mode-vue class="nav-item"></dark-light-mode-vue>
         </div>
     </nav>
   </div>
@@ -39,12 +39,12 @@ export default {
 </script>
 
 <style scoped>
-.colorBar{
+/* .colorBar{
     background: rgba(40, 38, 38, 0.8);
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
 }
 .colorBarLight{
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
-}
+} */
 </style>

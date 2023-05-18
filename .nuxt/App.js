@@ -10,6 +10,8 @@ import '../styles.css'
 
 import '../assets/css/fonts.css'
 
+import '../assets/css/styles.css'
+
 import _777ba69c from '../layouts/index.vue'
 import _6f6c098b from './layouts/default.vue'
 

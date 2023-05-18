@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header-vue></header-vue>
+        <header-vue class="marginB"/>
         <Nuxt/>
     </div>
 </template>
@@ -14,5 +14,7 @@ export default{
 </script>
 
 <style scoped>
-
+.marginB{
+    padding-bottom: 59px !important;
+}
 </style>

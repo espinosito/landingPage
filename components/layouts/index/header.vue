@@ -1,13 +1,13 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg align-self-center fixed-top" :class="$store.state.theme == 'light' ? 'bg-dark bg-opacity-75':'bg-light bg-opacity-75'">
+    <nav class="navbar navbar-expand-lg fixed-top" :class="$store.state.theme == 'light' ? 'bg-dark':'bg-light'">
         <div class="collapse container-fluid navbar-collapse justify-content-between" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                <h1 class="nav-link active mb-0 p-0" aria-current="page" href="#">About me</h1>
+                <a class="nav-link active" aria-current="page" href="/"><img :src="$store.state.theme=='light' ? 'icons/homeWhite.svg':'icons/homeBlack.svg'" height="24" min-width="24"><p class="align-text-top d-inline">Home</p></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link active" aria-current="page" href="/blog"><img :src="$store.state.theme=='light' ? 'icons/codeWhite.svg':'icons/codeBlack.svg'" height="22" min-width="22"> <p class="align-text-top d-inline">Espinosito</p></a>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

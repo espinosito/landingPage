@@ -21,7 +21,7 @@ export default {
         if(window){
           const element = document.getElementById('cardTech')
           setTimeout(function () {
-            window.scrollTo({ behavior: "smooth", top: element.offsetHeight + 20});
+            window.scrollTo({ behavior: "smooth", top: 995});
           },2);
         }
       }

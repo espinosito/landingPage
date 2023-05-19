@@ -3,14 +3,12 @@
     "name": "blog",
     "path": "/blog",
     "component": "/Users/espinosito/trabajo/landingPage/landingPage/Espinosito/pages/blog/index.vue",
-    "chunkName": "pages/blog/index",
-    "_name": "_6991df4e"
+    "chunkName": "pages/blog/index"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/espinosito/trabajo/landingPage/landingPage/Espinosito/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_085850b9"
+    "chunkName": "pages/index"
   }
 ]

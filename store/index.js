@@ -3,7 +3,8 @@ const createStore = () => {
     return new Vuex.Store({
         state: {
       counter: 0,
-      theme: 'light'
+      theme: 'light',
+      fromOtherPage:false,
     },
     
   })

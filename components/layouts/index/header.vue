@@ -7,6 +7,12 @@
                 <a class="nav-link active" aria-current="page" href="/"><img :src="$store.state.theme=='light' ? 'icons/homeWhite.svg':'icons/homeBlack.svg'" height="24" min-width="24"><p class="align-text-top d-inline">Home</p></a>
                 </li>
                 <li class="nav-item">
+                <button class="nav-link active" aria-current="page" @click="toMyTech()"><img :src="$store.state.theme=='light' ? 'icons/monitorWhite.svg':'icons/monitorBlack.svg'" height="24" min-width="24"><p class="align-text-top d-inline">My thecnologyes</p></button>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/"><img :src="$store.state.theme=='light' ? 'icons/paperWhite.svg':'icons/paperBlack.svg'" height="24" min-width="24"><p class="align-text-top d-inline">About the app</p></a>
+                </li>
+                <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/blog"><img :src="$store.state.theme=='light' ? 'icons/codeWhite.svg':'icons/codeBlack.svg'" height="22" min-width="22"> <p class="align-text-top d-inline">Espinosito</p></a>
                 </li>
                 <li class="nav-item dropdown">
@@ -33,8 +39,24 @@
 <script>
 import darkLightModeVue from '../../UI/darkLightMode.vue';
 export default {
-    components:{darkLightModeVue}
-
+    components:{darkLightModeVue},
+    data(){
+        return{
+        }
+    },
+    methods:{
+        toMyTech(){
+            if (window.location.origin == window.location.href.slice(0,-1)) {
+                const element = document.getElementById('cardTech')
+                window.scrollTo({ behavior: "smooth", top: element.offsetHeight + 20});
+            }else{
+                this.$router.push({path:'/'});
+                this.$store.state.fromOtherPage = true;
+            }
+            
+        }
+    },
+    
 }
 </script>
 

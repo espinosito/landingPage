@@ -1,5 +1,6 @@
-export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
+export { default as AboutApp } from '../../components/aboutApp.vue'
 export { default as AboutMe } from '../../components/aboutMe.vue'
+export { default as CardTec } from '../../components/cardTec.vue'
 export { default as Landing } from '../../components/landing.vue'
 export { default as UIDarkLightMode } from '../../components/UI/darkLightMode.vue'
 export { default as LayoutsIndexHeader } from '../../components/layouts/index/header.vue'

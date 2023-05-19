@@ -2,6 +2,11 @@
   "name": "Espinosito",
   "version": "1.0.0",
   "private": true,
+  "config": {
+    "nuxt": {
+      "port": "5050"
+    }
+  },
   
   "scripts": {
     "dev": "nuxt",

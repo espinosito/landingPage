@@ -1,9 +1,12 @@
 {
-  "NuxtLogo": {
-    "description": "Auto imported from components/NuxtLogo.vue"
+  "AboutApp": {
+    "description": "Auto imported from components/aboutApp.vue"
   },
   "AboutMe": {
     "description": "Auto imported from components/aboutMe.vue"
+  },
+  "CardTec": {
+    "description": "Auto imported from components/cardTec.vue"
   },
   "Landing": {
     "description": "Auto imported from components/landing.vue"

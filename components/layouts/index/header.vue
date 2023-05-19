@@ -48,7 +48,8 @@ export default {
         toMyTech(){
             if (window.location.origin == window.location.href.slice(0,-1)) {
                 const element = document.getElementById('cardTech')
-                window.scrollTo({ behavior: "smooth", top: element.offsetHeight + 20});
+                window.scroll({ behavior: "smooth", top: 995  });
+                /* element.scrollIntoView({ behavior: "smooth", block:'start'  }); */
             }else{
                 this.$router.push({path:'/'});
                 this.$store.state.fromOtherPage = true;

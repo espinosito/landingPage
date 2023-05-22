@@ -8,6 +8,9 @@
   "CardTec": {
     "description": "Auto imported from components/cardTec.vue"
   },
+  "DialogImage": {
+    "description": "Auto imported from components/dialogImage.vue"
+  },
   "Landing": {
     "description": "Auto imported from components/landing.vue"
   },

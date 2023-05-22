@@ -9,6 +9,7 @@ You can directly use them in pages and other components without the need to impo
 - `<AboutApp>` | `<about-app>` (components/aboutApp.vue)
 - `<AboutMe>` | `<about-me>` (components/aboutMe.vue)
 - `<CardTec>` | `<card-tec>` (components/cardTec.vue)
+- `<DialogImage>` | `<dialog-image>` (components/dialogImage.vue)
 - `<Landing>` | `<landing>` (components/landing.vue)
 - `<UIDarkLightMode>` | `<u-i-dark-light-mode>` (components/UI/darkLightMode.vue)
 - `<LayoutsIndexHeader>` | `<layouts-index-header>` (components/layouts/index/header.vue)

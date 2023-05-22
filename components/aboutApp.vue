@@ -1,6 +1,6 @@
 <template>
     <div class="row mt-5">
-        <div class="col-6 text-center">
+        <div class="col-6 px-0 text-center">
             <div class="card cardBorder m-auto" style="width: 550px; height:628px">
             
                 <div class="card-body bg-black">

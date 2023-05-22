@@ -11,9 +11,10 @@
             <div class="card cardBorder m-auto" style="width: 500px; height:auto">
             <img class="card-img-top imgCard" src="images/me.png" alt="not real me">
                 <div class="card-body bg-black">
-                <h5 class="card-title text-light">Me and my frog</h5>
-                <p class="card-text text-light">if u relly wanna see me? click bellow</p>
-                <a href="#" class="btn btn-success active">sapo</a>
+                <h5 class="card-title text-light imageText">Me and my frog</h5>
+                <p class="card-text text-light imageTextSm">if u relly wanna see me? click bellow</p>
+                <!-- <button @click="$store.state.dialogImage=true" class="btn btn-success active description">Image</button> -->
+                <dialog-image-vue/>
                 </div>
             </div>
         </div>
@@ -21,8 +22,9 @@
 </template>
 
 <script>
+import dialogImageVue from './dialogImage.vue'
 export default {
-
+    components:{dialogImageVue,}
 }
 </script>
 
